@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Start'/>
+        <page name='Overview'/>
+        <page name='AutomaticEncoding'/>
+        <page name='AutomaticDecoding'/>
+        <page name='ManualEncoding'/>
+        <page name='ManualDecoding'/>
+        <page name='CodableClasses'/>
+        <page name='DecodeWithIntermediateType'/>
+        <page name='RealWorldExample'/>
+        <page name='DynamicCodingKey'/>
+        <page name='EncoderDecoderCustomization'/>
+        <page name='CodingUserInfoKey'/>
+        <page name='ErrorHandling'/>
+        <page name='Resources'/>
+    </pages>
+</playground>
