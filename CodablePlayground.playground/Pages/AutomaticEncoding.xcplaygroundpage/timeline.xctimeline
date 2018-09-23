@@ -3,8 +3,13 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/AutomaticEncoding.xcplaygroundpage#CharacterRangeLen=11&amp;CharacterRangeLoc=1904&amp;EndingColumnNumber=0&amp;EndingLineNumber=63&amp;StartingColumnNumber=1&amp;StartingLineNumber=62&amp;Timestamp=544619578.234717"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/AutomaticEncoding.xcplaygroundpage#CharacterRangeLen=11&amp;CharacterRangeLoc=2106&amp;EndingColumnNumber=7&amp;EndingLineNumber=65&amp;StartingColumnNumber=53&amp;StartingLineNumber=63&amp;Timestamp=559381891.530687"
          lockedSize = "{671.806640625, 263}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/AutomaticEncoding.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=2058&amp;EndingColumnNumber=9&amp;EndingLineNumber=63&amp;StartingColumnNumber=5&amp;StartingLineNumber=63&amp;Timestamp=559381891.530854"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

@@ -7,6 +7,7 @@
 import Foundation
 
 let encoder = JSONEncoder()
+let decoder = JSONDecoder()
 
 //: ### Output formatting
 //: Human-readable JSON with indented output:
@@ -14,6 +15,34 @@ encoder.outputFormatting = .prettyPrinted
 
 //: Keys sorted in lexicographic (alphabetic) order:
 encoder.outputFormatting = .sortedKeys
+
+//: ### Keys encoding/decoding strategy
+//: To customize strategy for keys conversion you can just use encoder/decoder's `keyEncodingStrategy`/`keyDecodingStrategy`. For example to convert between snake case (snake_case) and camel case (camelCase) you can simply use  `convertToSnakeCase` / `convertFromSnakeCase` strategy
+
+encoder.keyEncodingStrategy = .convertToSnakeCase
+decoder.keyDecodingStrategy = .convertFromSnakeCase
+
+//: For more advanced conversions use `custom` strategy, which enables to implement custom conversion closure:
+
+struct AnyKey: CodingKey {
+    var stringValue: String
+    var intValue: Int?
+
+    init(stringValue: String) {
+        self.stringValue = stringValue
+        self.intValue = nil
+    }
+
+    init(intValue: Int) {
+        self.stringValue = String(intValue)
+        self.intValue = intValue
+    }
+}
+
+encoder.keyEncodingStrategy = .custom { keys -> CodingKey in
+    let lastComponent = keys.last?.stringValue.uppercased()
+    return AnyKey(stringValue: lastComponent ?? "")
+}
 
 //: ### Encoding (and decoding) Date
 //: Formatting used by the Date type:

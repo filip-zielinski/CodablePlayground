@@ -30,6 +30,8 @@ struct Vegetable: Codable {
   _2. Names of cases must match names of properties\
   _3. Properties you want to omit from encoding/decoding need to have default value\
   _4. To use custom keys for serialized data provide them as enum's raw values
+
+    To convert keys between snake case (`snake_case`) and camel case (`camelCase`) you can just use `JSONEncoder`'s `keyEncodingStrategy` and set it to `convertToSnakeCase`
 */
 
 extension Vegetable {
@@ -37,7 +39,7 @@ extension Vegetable {
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
         case name
-        case isDelicious = "is_delicious"
+        case isDelicious
         case imagesURLs = "images"
         case nutrition
         case availability
@@ -56,6 +58,7 @@ let vegy = Vegetable(identifier: UUID(),
 let encoder = JSONEncoder()
 encoder.outputFormatting = .prettyPrinted
 encoder.dateEncodingStrategy = .secondsSince1970
+encoder.keyEncodingStrategy = .convertToSnakeCase
 
 let data = try encoder.encode(vegy)
 let JSON = try JSONSerialization.jsonObject(with: data)

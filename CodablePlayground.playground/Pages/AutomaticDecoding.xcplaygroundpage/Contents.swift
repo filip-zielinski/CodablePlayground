@@ -49,12 +49,13 @@ struct Retailer: Decodable {
 extension Vegetable {
 
 /*:
-- Note: custom CodingKeys, if needed:
+- Note: Custom CodingKeys, if needed.\
+To convert keys between snake case (snake_case) and camel case (camelCase) you can just use `JSONDecoder`'s `keyDecodingStrategy` and set it to `convertFromSnakeCase`
  */
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
         case name
-        case isDelicious = "is_delicious"
+        case isDelicious
         case imagesURLs = "images"
         case nutrition
         case availability
@@ -63,6 +64,7 @@ extension Vegetable {
 
 let decoder = JSONDecoder()
 decoder.dateDecodingStrategy = .secondsSince1970
+decoder.keyDecodingStrategy = .convertFromSnakeCase
 
 let banana = try? decoder.decode(Vegetable.self, from: fruitData)
 

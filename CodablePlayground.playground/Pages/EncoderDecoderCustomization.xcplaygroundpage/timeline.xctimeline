@@ -3,22 +3,27 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=107&amp;CharacterRangeLoc=1024&amp;EndingColumnNumber=5&amp;EndingLineNumber=53&amp;StartingColumnNumber=14&amp;StartingLineNumber=48&amp;Timestamp=544622368.9135441"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=13&amp;CharacterRangeLoc=1898&amp;EndingColumnNumber=18&amp;EndingLineNumber=71&amp;StartingColumnNumber=5&amp;StartingLineNumber=71&amp;Timestamp=559384807.609201"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=54&amp;CharacterRangeLoc=2594&amp;EndingColumnNumber=1&amp;EndingLineNumber=91&amp;StartingColumnNumber=6&amp;StartingLineNumber=90&amp;Timestamp=544622368.913687"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=54&amp;CharacterRangeLoc=3468&amp;EndingColumnNumber=69&amp;EndingLineNumber=116&amp;StartingColumnNumber=15&amp;StartingLineNumber=116&amp;Timestamp=559384807.609338"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=9&amp;CharacterRangeLoc=1131&amp;EndingColumnNumber=14&amp;EndingLineNumber=53&amp;StartingColumnNumber=5&amp;StartingLineNumber=53&amp;Timestamp=544622368.913806"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=9&amp;CharacterRangeLoc=2005&amp;EndingColumnNumber=43&amp;EndingLineNumber=74&amp;StartingColumnNumber=34&amp;StartingLineNumber=74&amp;Timestamp=559384807.609431"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=54&amp;CharacterRangeLoc=2593&amp;EndingColumnNumber=0&amp;EndingLineNumber=91&amp;StartingColumnNumber=5&amp;StartingLineNumber=90&amp;Timestamp=544622368.9139169"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=54&amp;CharacterRangeLoc=3467&amp;EndingColumnNumber=68&amp;EndingLineNumber=116&amp;StartingColumnNumber=14&amp;StartingLineNumber=116&amp;Timestamp=559384807.6095181"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/EncoderDecoderCustomization.xcplaygroundpage#CharacterRangeLen=9&amp;CharacterRangeLoc=2171&amp;EndingColumnNumber=14&amp;EndingLineNumber=82&amp;StartingColumnNumber=5&amp;StartingLineNumber=82&amp;Timestamp=559384807.609604"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

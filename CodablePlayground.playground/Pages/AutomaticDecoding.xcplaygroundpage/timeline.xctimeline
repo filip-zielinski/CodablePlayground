@@ -3,12 +3,17 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage#CharacterRangeLen=105&amp;CharacterRangeLoc=1435&amp;EndingColumnNumber=75&amp;EndingLineNumber=72&amp;StartingColumnNumber=62&amp;StartingLineNumber=66&amp;Timestamp=544614249.373981"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage#CharacterRangeLen=105&amp;CharacterRangeLoc=1638&amp;EndingColumnNumber=75&amp;EndingLineNumber=74&amp;StartingColumnNumber=62&amp;StartingLineNumber=68&amp;Timestamp=559382104.432211"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/filip.zielinski/Documents/Nauka/gildia_ios/codable/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1373&amp;EndingColumnNumber=6&amp;EndingLineNumber=66&amp;StartingColumnNumber=0&amp;StartingLineNumber=66&amp;Timestamp=544614249.374133"
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1576&amp;EndingColumnNumber=6&amp;EndingLineNumber=68&amp;StartingColumnNumber=0&amp;StartingLineNumber=68&amp;Timestamp=559382104.432319"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/filip.zielinski/Documents/Playgrounds/CodablePlayground/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1581&amp;EndingColumnNumber=11&amp;EndingLineNumber=68&amp;StartingColumnNumber=5&amp;StartingLineNumber=68&amp;Timestamp=559382104.432393"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
